@@ -402,12 +402,17 @@ header .mobile {
 footer {
   background-color: #9b9b9b;
   padding: 1.5rem 2rem;
+  height: 62px;
+  
 }
 
 footer .content {
   color: white;
   display: flex;
-  font-size: .75rem;
+  font-size: 12px;
+  font-family: roboto;
+  margin: 0 32px;
+  
 }
 
 footer .copyright {
