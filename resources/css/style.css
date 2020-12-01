@@ -309,6 +309,7 @@ header .mobile {
   font-size: 2.25rem;
   font-weight: bold;
   color: white;
+  font-family: roboto;
 }
 
 #filters-section .content h3 {
@@ -316,11 +317,14 @@ header .mobile {
   line-height: 1.4;
   font-weight: 300;
   color: white;
+  font-family: roboto;
 }
 
 #filters-section .images-container {
+  display: flex;
   max-width: 100%;
   padding: 0 1%;
+  
 }
 
 @media only screen and (max-width: 760px) {
